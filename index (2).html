@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto de Muebles Ecológicos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            color: white;
+            padding: 14px 20px;
+            text-align: center;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #4CAF50;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        .section h2 {
+            color: #333;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            display: inline-block;
+        }
+        .contact-form {
+            background-color: #e0e0e0;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 500px;
+            margin: auto;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+        .contact-form button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Proyecto de Muebles Ecológicos</h1>
+        <p>Muebles sostenibles para un mejor futuro</p>
+    </header>
+    
+    <nav>
+        <a href="#about">Sobre el Proyecto</a>
+        <a href="#gallery">Galería</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+
+    <div class="container">
+        <!-- Sobre el Proyecto -->
+        <section id="about" class="section">
+            <h2>Sobre el Proyecto</h2>
+            <p>El proyecto de muebles ecológicos busca reducir el impacto ambiental mediante el uso de materiales reciclados y sostenibles. Nuestros muebles son fabricados con madera reciclada, plástico reciclado y otros materiales ecoamigables. Cada pieza es única y refleja nuestro compromiso con el medio ambiente.</p>
+        </section>
+
+        <!-- Galería -->
+        <section id="gallery" class="section">
+            <h2>Galería de Muebles</h2>
+            <div class="gallery">
+                <img src="mueble1.jpeg" alt="Mueble Ecológico 1">
+                <img src="mueble2.jpeg" alt="Mueble Ecológico 2">
+                <img src="mueble3.jpeg" alt="Mueble Ecológico 3">
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section id="contact" class="section">
+            <h2>Contacto</h2>
+            <p>Para obtener más información sobre nuestros muebles ecológicos, completa el siguiente formulario y nos pondremos en contacto contigo.</p>
+            <form class="contact-form">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Correo Electrónico</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensaje</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Proyecto de Muebles Ecológicos. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
